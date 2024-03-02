@@ -9,25 +9,20 @@
 </head>
 <body>
     <form action="">
-        <h1>FORMULARIO</h1>
-    <h2>Instrucciones</h2>
-    <p>Usuario: Entre 3 y 25 caracteres</p>
-    <input type="text" onblur="validarUsuario(this)" name="usuario" placeholder="Usuario"><span id="usuario"></span>
+    <h2>FORMULARIO</h2>
+    <input type="text" onblur="validarUsuario(this)" name="usuario" placeholder="Usuario Entre 3 y 25 caracteres"><span id="usuario"></span>
     
     <p>Contraseña: Al menos 8 caracteres y una letra en mayúsculas, una minúscula y un digito</p>
     <input type="password" onblur="validarConstraseña(this)" name="password" id="" placeholder="password"><span id="contraseña"></span>
     
-    <p>Email: Tipo dirección email</p>
     <input type="email" onblur="validarEmail(this)" name="email" id="" placeholder="Introduce tu correo"><span id="email"></span>
     
-    <p>Nombre: Minimo 3 letras</p>
-    <input type="text" onblur="validarNombre(this)"  name="name" id="" placeholder="Introduce tu nombre"><span id="nombre"></span>
+
+    <input type="text" onblur="validarNombre(this)"  name="name" id="" placeholder="Introduce tu nombre minimo 3 letras"><span id="nombre"></span>
     
-    <p>Apellidos: Mínimo 2 palabras de al menos 3 letras cada una</p>
-    <input type="text" onblur="validarApellidos(this)" name="apellidos" id="" placeholder="Introduce tus apellidos"><span id="apellido"></span>
-    <p>Dirección (textarea): Mínimo que contenta un CP de 5 digitos, y 
-        nos muestra una alerta las condiciones de validación en un alert con el
-    siguiente formato: Dirección, Población, CP y Provincia, separado por comas. </p>
+    <input type="text" onblur="validarApellidos(this)" name="apellidos" id="" placeholder="Introduce tús dos apellidos"><span id="apellido"></span>
+    <p>Dirección (textarea): Mínimo que contenta un CP de 5 digitos, con el
+    siguiente formato: Dirección, Población, CP y Provincia. </p>
     <p>Introduce tu dirección</p>
 
    <textarea onblur="validarCP(this)"  name="" id="cpInput" cols="30" rows="10" placeholder="Formato: Dirección \nCP \nPoblación \nProvincia "></textarea>
