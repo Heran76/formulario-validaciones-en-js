@@ -1,0 +1,26 @@
+body{
+    background: rgb(240,240,240);
+    background: linear-gradient(90deg, rgba(240,240,240,1) 0%, rgba(228,233,209,1) 50%, rgba(213,211,209,1) 100%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 50px auto;  
+    background-color: rgb(231, 229, 229);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(189, 187, 187);
+    box-shadow: 10px 10px 60px gray;
+}
+
+input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-sizing: 10px 10px 10px;
+    padding-left: 10px;
+    
+}
