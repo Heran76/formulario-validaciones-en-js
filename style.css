@@ -19,12 +19,21 @@ form{
 input{
     margin-top: 20px;
     margin-bottom: 20px;
-    border-radius: 8px;
+    border-radius: 5px;
     box-sizing: 10px 10px 10px;
     padding-left: 10px;
-    
+    background: linear-gradient(90deg, rgb(247, 246, 246) 0%, rgb(230, 232, 222) 50%, rgb(238, 237, 235) 100%);
 }
-
-h2, p{
+h2{
+    background: #CFCFCD;
+background: repeating-radial-gradient(circle farthest-side at bottom center, #CFCFCD 0%, #000000 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+p{
     color: gray;
+}
+textarea{
+    background: linear-gradient(90deg, rgb(247, 246, 246) 0%, rgb(230, 232, 222) 50%, rgb(238, 237, 235) 100%);
+    border-radius: 4px;
 }
