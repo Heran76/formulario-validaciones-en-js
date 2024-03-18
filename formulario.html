@@ -13,10 +13,11 @@
     <input type="text" onblur="validarUsuario(this)" name="usuario" placeholder="Usuario Entre 3 y 25 caracteres"><span id="usuario"></span>
     
     <p>Contraseña: Al menos 8 caracteres y una letra en mayúsculas, una minúscula y un digito</p>
-    <input type="password" onblur="validarConstraseña(this)" name="password" id="" placeholder="password"><span id="contraseña"></span>
+    <input type="password" onblur="validarConstraseña(this)" name="password" id="password" placeholder="password"><span id="contraseña"></span>
+    
+    <input type="password" onblur="validarConfirmarConstraseña()" name="confirmPassword" id="confirmPassword" placeholder="Confirmar Contraseña"><span id="confirmarContraseña"></span>
     
     <input type="email" onblur="validarEmail(this)" name="email" id="" placeholder="Introduce tu correo"><span id="email"></span>
-    
 
     <input type="text" onblur="validarNombre(this)"  name="name" id="" placeholder="Introduce tu nombre minimo 3 letras"><span id="nombre"></span>
     
@@ -27,12 +28,6 @@
 
    <textarea onblur="validarCP(this)"  name="" id="cpInput" cols="30" rows="10" placeholder="Formato: Dirección \nCP \nPoblación \nProvincia "></textarea>
         <input type="submit"><span id=""></span>
-
-
 </form>
-    
-    
-    
-   
 </body>
 </html>
